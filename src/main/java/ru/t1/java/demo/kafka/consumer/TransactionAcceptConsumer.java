@@ -29,8 +29,7 @@ public class TransactionAcceptConsumer {
         log.debug("TransactionAcceptConsumer: Обработка нового сообщения");
 
         try {
-            log.debug("Topic: {}", topic);
-            log.debug("Key: {}", key);
+            log.debug("Topic: {}, Key: {}", topic, key);
 
             if (key == null) {
                 key = UUID.randomUUID().toString();
