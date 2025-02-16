@@ -1,0 +1,11 @@
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet id="init" author="DShakhaev">
+        <sqlFile encoding="utf8" path="/db/changelog/2025/02/05-02-changelog-01.sql"/>
+        <rollback/>
+    </changeSet>
+</databaseChangeLog>
